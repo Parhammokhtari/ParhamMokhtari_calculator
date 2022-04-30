@@ -1,0 +1,19 @@
+.btn {
+ background-image: linear-gradient(90deg, #eeaf67 -7%, #f0903d 108%);
+  border: 1px solid #999;
+  padding: 5PX 5PX;
+  font-weight: bold;
+  font-size: larger;
+  
+}
+
+.btn::after{
+    content: "X";
+    display: inline-block;
+    background-color:white;
+    width: 60PX;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 999pX;
+    margin-left: 10px;
+}

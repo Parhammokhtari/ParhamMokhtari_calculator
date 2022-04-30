@@ -1,0 +1,108 @@
+
+
+.general{
+    margin: 0;
+    padding: 0;
+    width: 260px;
+    height: 600px;
+    background-color: white;
+    
+}
+.TaskManagement {
+    margin: 2px;
+   padding: 3px ;
+   padding-left: 30px;
+   background-color: rgb(80, 80, 231);
+   color: white;
+   font-size: smaller;
+  
+}
+
+
+.AddNewTask{
+    margin: 8px 34px;
+    padding: 5px;
+    font-weight: bold;
+     color: black;
+    
+
+}
+
+.box{
+    padding: 7px;
+    padding-left: 10px;   
+}
+.Title{
+    margin: 8px 30px;
+    margin-top: 0;
+    padding: 7px;
+    padding-left: 10px;
+    font-size: smaller;
+     color: rgb(119, 115, 115);
+     background-color: rgb(199, 190, 190);
+     border: none;
+     border-bottom: 1px solid rgb(112, 108, 108);
+     border-radius: 3px 3px 0 0;
+}
+
+.Description{
+    margin: 6px 30px;
+    margin-top: 0;
+    padding: 10px 40px 10px 40px;
+    padding-left:10px;
+    font-size: smaller;
+     color: rgb(119, 115, 115);
+     background-color: rgb(199, 190, 190);
+     border: none;
+     border-bottom: 1px solid rgb(112, 108, 108);
+     border-radius: 3px 3px 0 0;
+}
+
+.Button{
+    margin: 6px 30px;
+    margin-top: 0;
+    padding: 5px 82px 5px 82px;
+    font-size: smaller;
+     color:white;
+     background-color: rgb(94, 94, 240);
+     border: none;
+     border-bottom: 1px solid rgb(112, 108, 108);
+     border-radius: 4px 4px ;
+     text-align: center;
+}
+
+.blueBox{
+    padding: 0;
+    margin: 0px 2px;
+    background-color: rgb(80, 80, 231);
+    border: none;
+    border-radius: 8px 8px 0 0 ;
+    height: 276px;
+}
+
+.Tasks{
+  padding: 5px;
+  padding-left: 10px;
+  background-color: rgb(80, 80, 231);
+   color: white;
+   font-size: smaller;
+   border-radius: 8px 8px 0 0 ;
+  
+}
+
+#text{
+    margin: 0px ;
+    margin-bottom: 2px;
+    padding:30px 59px;
+    background-color: rgb(148, 189, 250);
+    color: white;
+    font-size: smaller;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    border-radius: 8px 8px 0 0 ;
+    height: 164px;
+   	
+		}
