@@ -15,22 +15,26 @@ h1{
     text-shadow: 4px 4px 2px rgba(2, 5, 7, 0.6);
 }
 table{
-    background-image: linear-gradient(to right bottom ,red,yellow);
+    /* background-image: linear-gradient(to right bottom ,red,yellow); */
+    /* background-image: linear-gradient(to right bottom ,rgb(50, 23, 75),rgb(127, 150, 250)); */
+    background-image: linear-gradient(to right bottom ,  rgb(255, 10, 112), rgb(12, 6, 92));
     animation-name: example;
   animation-duration: 6s;
-  animation-delay: 0s;
+  animation-delay: 1s;
 
 }
 
 @keyframes example {
-  0% {background-image: linear-gradient(to right bottom ,red,yellow);
+  0% {
+    background-image: linear-gradient(to right bottom ,rgb(50, 23, 75),yellow);
   }
-  25% {background-image: linear-gradient(to right bottom ,green, blue);
+  25% {
+    background-image: linear-gradient(to right bottom ,red,yellow);
       transform: skew(360deg);
       transform: rotate(360deg);
    }
-   50% {background-image: linear-gradient(to right bottom ,rgb(50, 23, 75),rgb(127, 150, 250));
-    
+   50% {
+    background-image: linear-gradient(to right bottom ,green, blue);
     transform: translate(50px,100px);
    }
    75% {background-image: linear-gradient(to right bottom ,yellow,red);
